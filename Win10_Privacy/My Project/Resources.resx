@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="logo_rdy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_rdy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strings_of_hosts" xml:space="preserve">
+    <value>127.0.0.1 vortex.data.microsoft.com
+127.0.0.1 vortex-win.data.microsoft.com
+127.0.0.1 telecommand.telemetry.microsoft.com
+127.0.0.1 telecommand.telemetry.microsoft.com.nsatc.net
+127.0.0.1 oca.telemetry.microsoft.com
+127.0.0.1 oca.telemetry.microsoft.com.nsatc.net
+127.0.0.1 sqm.telemetry.microsoft.com
+127.0.0.1 sqm.telemetry.microsoft.com.nsatc.net
+127.0.0.1 watson.telemetry.microsoft.com
+127.0.0.1 watson.telemetry.microsoft.com.nsatc.net
+127.0.0.1 redir.metaservices.microsoft.com
+127.0.0.1 choice.microsoft.com
+127.0.0.1 choice.microsoft.com.nsatc.net
+127.0.0.1 df.telemetry.microsoft.com
+127.0.0.1 reports.wes.df.telemetry.microsoft.com
+127.0.0.1 wes.df.telemetry.microsoft.com
+127.0.0.1 services.wes.df.telemetry.microsoft.com
+127.0.0.1 sqm.df.telemetry.microsoft.com
+127.0.0.1 telemetry.microsoft.com
+127.0.0.1 watson.ppe.telemetry.microsoft.com
+127.0.0.1 telemetry.appex.bing.net
+127.0.0.1 telemetry.urs.microsoft.com
+127.0.0.1 telemetry.appex.bing.net:443
+127.0.0.1 settings-sandbox.data.microsoft.com
+127.0.0.1 vortex-sandbox.data.microsoft.com
+127.0.0.1 survey.watson.microsoft.com
+127.0.0.1 watson.live.com
+127.0.0.1 watson.microsoft.com
+127.0.0.1 statsfe2.ws.microsoft.com
+127.0.0.1 compatexchange.cloudapp.net
+127.0.0.1 cs1.wpc.v0cdn.net
+127.0.0.1 a-0001.a-msedge.net
+127.0.0.1 statsfe2.update.microsoft.com.akadns.net
+127.0.0.1 sls.update.microsoft.com.akadns.net
+127.0.0.1 fe2.update.microsoft.com.akadns.net
+127.0.0.1 diagnostics.support.microsoft.com
+127.0.0.1 corp.sts.microsoft.com
+127.0.0.1 statsfe1.ws.microsoft.com
+127.0.0.1 pre.footprintpredict.com
+127.0.0.1 i1.services.social.microsoft.com
+127.0.0.1 i1.services.social.microsoft.com.nsatc.net
+127.0.0.1 feedback.windows.com
+127.0.0.1 feedback.microsoft-hohm.com
+127.0.0.1 feedback.search.microsoft.com
+127.0.0.1 rad.msn.com
+127.0.0.1 preview.msn.com
+127.0.0.1 ad.doubleclick.net
+127.0.0.1 ads.msn.com
+127.0.0.1 ads1.msads.net
+127.0.0.1 ads1.msn.com
+127.0.0.1 a.ads1.msn.com
+127.0.0.1 a.ads2.msn.com
+127.0.0.1 adnexus.net
+127.0.0.1 adnxs.com
+127.0.0.1 aidps.atdmt.com
+127.0.0.1 az361816.vo.msecnd.net
+127.0.0.1 az512334.vo.msecnd.net
+127.0.0.1 a.rad.msn.com
+127.0.0.1 a.ads2.msads.net
+127.0.0.1 ac3.msn.com
+127.0.0.1 aka-cdn-ns.adtech.de
+127.0.0.1 b.rad.msn.com
+127.0.0.1 b.ads2.msads.net
+127.0.0.1 b.ads1.msn.com
+127.0.0.1 bs.serving-sys.com
+127.0.0.1 c.msn.com
+127.0.0.1 cdn.atdmt.com
+127.0.0.1 cds26.ams9.msecn.net
+127.0.0.1 c.atdmt.com
+127.0.0.1 db3aqu.atdmt.com
+127.0.0.1 ec.atdmt.com
+127.0.0.1 flex.msn.com
+127.0.0.1 g.msn.com
+127.0.0.1 h2.msn.com
+127.0.0.1 h1.msn.com
+127.0.0.1 live.rads.msn.com
+127.0.0.1 msntest.serving-sys.com
+127.0.0.1 m.adnxs.com
+127.0.0.1 m.hotmail.com
+127.0.0.1 preview.msn.com
+127.0.0.1 rad.msn.com
+127.0.0.1 rad.live.com
+127.0.0.1 secure.flashtalking.com
+127.0.0.1 static.2mdn.net
+127.0.0.1 secure.adnxs.com
+127.0.0.1 sO.2mdn.net
+127.0.0.1 view.atdmt.com</value>
+  </data>
+  <data name="paypal_donate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paypal_donate.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1271570_big" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1271570_big.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strings_of_hosts_skype" xml:space="preserve">
+    <value>127.0.0.1 ui.skype.com
+127.0.0.1 www.msftncsi.com
+127.0.0.1 msftncsi.com
+127.0.0.1 apps.skype.com
+127.0.0.1 pricelist.skype.com
+127.0.0.1 s.gateway.messenger.live.com</value>
+  </data>
+</root>

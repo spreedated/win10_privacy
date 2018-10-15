@@ -1,0 +1,67 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Win10_Privacy
+</name>
+</assembly>
+<members>
+<member name="T:Win10_Privacy.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Win10_Privacy.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Win10_Privacy.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Win10_Privacy.My.Resources.Resources._1271570_big">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Win10_Privacy.My.Resources.Resources.logo_rdy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Win10_Privacy.My.Resources.Resources.paypal_donate">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Win10_Privacy.My.Resources.Resources.strings_of_hosts">
+<summary>
+  Looks up a localized string similar to 127.0.0.1 vortex.data.microsoft.com
+127.0.0.1 vortex-win.data.microsoft.com
+127.0.0.1 telecommand.telemetry.microsoft.com
+127.0.0.1 telecommand.telemetry.microsoft.com.nsatc.net
+127.0.0.1 oca.telemetry.microsoft.com
+127.0.0.1 oca.telemetry.microsoft.com.nsatc.net
+127.0.0.1 sqm.telemetry.microsoft.com
+127.0.0.1 sqm.telemetry.microsoft.com.nsatc.net
+127.0.0.1 watson.telemetry.microsoft.com
+127.0.0.1 watson.telemetry.microsoft.com.nsatc.net
+127.0.0.1 redir.metaservices.microsoft.com
+127.0.0.1 choice [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Win10_Privacy.My.Resources.Resources.strings_of_hosts_skype">
+<summary>
+  Looks up a localized string similar to 127.0.0.1 ui.skype.com
+127.0.0.1 www.msftncsi.com
+127.0.0.1 msftncsi.com
+127.0.0.1 apps.skype.com
+127.0.0.1 pricelist.skype.com
+127.0.0.1 s.gateway.messenger.live.com.
+</summary>
+</member>
+</members>
+</doc>
