@@ -1,8 +1,7 @@
-﻿Imports System
-Imports System.Reflection
+﻿Imports System.Reflection
 Imports System.Runtime.InteropServices
 
-' Allgemeine Informationen über eine Assembly werden über die folgenden 
+' Allgemeine Informationen über eine Assembly werden über die folgenden
 ' Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 ' die einer Assembly zugeordnet sind.
 
@@ -12,7 +11,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("Markus Karl Wackermann")>
 <Assembly: AssemblyProduct("Win10_Privacy")>
-<Assembly: AssemblyCopyright("Markus Karl Wackermann ©  2015-2016")>
+<Assembly: AssemblyCopyright("Markus Karl Wackermann ©  2015-2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(True)>
@@ -23,13 +22,13 @@ Imports System.Runtime.InteropServices
 ' Versionsinformationen für eine Assembly bestehen aus den folgenden vier Werten:
 '
 '      Hauptversion
-'      Nebenversion 
+'      Nebenversion
 '      Buildnummer
 '      Revision
 '
-' Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern 
+' Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern
 ' übernehmen, indem Sie "*" eingeben:
-' <Assembly: AssemblyVersion("1.0.*")> 
+' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.4.0.0")>
-<Assembly: AssemblyFileVersion("1.4.0.0")>
+<Assembly: AssemblyVersion("1.5.1.0")>
+<Assembly: AssemblyFileVersion("1.5.1.0")>

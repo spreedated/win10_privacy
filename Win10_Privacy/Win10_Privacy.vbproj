@@ -8,10 +8,10 @@
     <OutputType>WinExe</OutputType>
     <StartupObject>Win10_Privacy.My.MyApplication</StartupObject>
     <RootNamespace>Win10_Privacy</RootNamespace>
-    <AssemblyName>Win10_Privacy</AssemblyName>
+    <AssemblyName>Win10 Privacy</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -28,6 +28,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -36,7 +37,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Win10_Privacy.xml</DocumentationFile>
+    <DocumentationFile>Win10 Privacy.xml</DocumentationFile>
     <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
     <WarningsAsErrors>
     </WarningsAsErrors>
@@ -48,7 +49,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Win10_Privacy.xml</DocumentationFile>
+    <DocumentationFile>Win10 Privacy.xml</DocumentationFile>
     <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
     <WarningsAsErrors>
     </WarningsAsErrors>
@@ -76,10 +77,6 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Management.Automation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Management.Automation.6.1.7601.17515\lib\net45\System.Management.Automation.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -102,22 +99,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
-    <Compile Include="frm_uninstall_useless_apps.Designer.vb">
-      <DependentUpon>frm_uninstall_useless_apps.vb</DependentUpon>
+    <Compile Include="Forms\Frm_UninstallUselessApps.Designer.vb">
+      <DependentUpon>Frm_UninstallUselessApps.vb</DependentUpon>
     </Compile>
-    <Compile Include="frm_uninstall_useless_apps.vb">
+    <Compile Include="Forms\Frm_UninstallUselessApps.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="main.vb">
+    <Compile Include="Forms\Frm_Main.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="main.Designer.vb">
-      <DependentUpon>main.vb</DependentUpon>
+    <Compile Include="Forms\Frm_Main.Designer.vb">
+      <DependentUpon>Frm_Main.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Module1.vb" />
-    <Compile Include="Module2.vb" />
-    <Compile Include="Module_powershell.vb" />
+    <Compile Include="Classes\AppProperties.vb" />
+    <Compile Include="Modules\Functions.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -135,11 +131,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frm_uninstall_useless_apps.resx">
-      <DependentUpon>frm_uninstall_useless_apps.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\Frm_UninstallUselessApps.resx">
+      <DependentUpon>Frm_UninstallUselessApps.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="main.resx">
-      <DependentUpon>main.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\Frm_Main.resx">
+      <DependentUpon>Frm_Main.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -163,9 +159,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
-    <None Include="Resources\1271570_big.jpg" />
     <None Include="Resources\paypal_donate.jpg" />
-    <None Include="packages.config" />
     <None Include="Resources\logo_rdy.png" />
   </ItemGroup>
   <ItemGroup>
@@ -180,6 +174,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
