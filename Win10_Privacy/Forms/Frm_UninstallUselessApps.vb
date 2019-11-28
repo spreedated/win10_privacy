@@ -133,14 +133,26 @@ Public Class Frm_UninstallUselessApps
 
         For Each i In sel_apps
             t.Add(New Task(Sub()
+#If DEBUG Then
+
                                Using p As Process = New Process With {
                                    .StartInfo = New ProcessStartInfo With {
                                        .FileName = "powershell.exe",
-                                       .Arguments = String.Format("Get-AppxPackage {0} *{1}* | Remove-AppxPackage", arg_text, i),
-                                       .CreateNoWindow = False,
-                                       .WindowStyle = ProcessWindowStyle.Normal
+                                       .Arguments = "Get-AppxPackage * |",
+                                       .CreateNoWindow = True,
+                                       .WindowStyle = ProcessWindowStyle.Hidden
                                    }
                                }
+#Else
+                                   Using p As Process = New Process With {
+                                   .StartInfo = New ProcessStartInfo With {
+                                       .FileName = "powershell.exe",
+                                       .Arguments = String.Format("Get-AppxPackage {0} *{1}* | Remove-AppxPackage", arg_text, i),
+                                       .CreateNoWindow = True,
+                                       .WindowStyle = ProcessWindowStyle.Hidden
+                                   }
+                               }
+#End If
                                    p.Start()
                                    p.WaitForExit(New TimeSpan(0, 0, 30).TotalMilliseconds)
                                End Using

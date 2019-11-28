@@ -117,10 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="logo_rdy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo_rdy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="strings_of_hosts" xml:space="preserve">
     <value>127.0.0.1 vortex.data.microsoft.com
 127.0.0.1 vortex-win.data.microsoft.com
@@ -210,8 +206,9 @@
 127.0.0.1 sO.2mdn.net
 127.0.0.1 view.atdmt.com</value>
   </data>
-  <data name="paypal_donate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\paypal_donate.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="logo_rdy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_rdy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="strings_of_hosts_skype" xml:space="preserve">
     <value>127.0.0.1 ui.skype.com
@@ -220,5 +217,8 @@
 127.0.0.1 apps.skype.com
 127.0.0.1 pricelist.skype.com
 127.0.0.1 s.gateway.messenger.live.com</value>
+  </data>
+  <data name="paypal-donate-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paypal-donate-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
