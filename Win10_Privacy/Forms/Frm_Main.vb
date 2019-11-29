@@ -27,7 +27,7 @@
                                             Return True
                                         End Function)
         '###
-        Label2.Text = Current_copyright("2015", True, "Markus Karl Wackermann")
+        Label2.Text = Current_copyright("2015-2019", True, "Markus Karl Wackermann")
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
