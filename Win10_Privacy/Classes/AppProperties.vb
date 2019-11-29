@@ -4,7 +4,7 @@ Module AppProperties
 
 #Region "My Vars v1.0"
 
-    Public myappname As String = "Win10 - Privacy"
+    'Public myappname As String = "Win10 - Privacy"
     'Public myappfullnameString As String = myappname & " " & myappvers
     '
 
